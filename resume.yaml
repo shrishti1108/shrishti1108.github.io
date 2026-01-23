@@ -1,0 +1,106 @@
+# ====================================================================
+# Terminal Portfolio - Resume Configuration for Shrishti Prasad
+# ====================================================================
+
+cv:
+  name: "Shrishti Prasad"
+  location: "Nagpur, India"
+  email: "shrishtiprasad435@gmail.com"
+  phone: "tel:+91-9370301643"
+  social_networks:
+    - network: "LinkedIn"
+      username: "shrishti-prasad-560723248"
+      profile_url: "https://www.linkedin.com/in/shrishti-prasad-560723248"
+    - network: "GitHub"
+      username: "shrishti1108"
+      profile_url: "https://github.com/shrishti1108"
+
+  sections:
+    intro:
+      - "Computer Science Engineering student and Data/ML Intern with hands-on experience in **healthcare analytics**, **predictive modeling**, and **operational efficiency**."
+      - "Proficient in building **backend data processing pipelines** and **ML-integrated applications** using **Python**, **SQL**, and frameworks like **TensorFlow** and **PyTorch**."
+      - "Published researcher with **three IEEE papers** focusing on **AI diagnostics**, **predictive modeling**, and **blockchain security**."
+
+    technologies:
+      - label: "Programming"
+        details: "Python, SQL, C, C++"
+      - label: "Data & Visualization"
+        details: "Pandas, NumPy, Power BI (DAX), MS Excel, Matplotlib, Seaborn"
+      - label: "Machine Learning & AI"
+        details: "Scikit-learn, TensorFlow/Keras, PyTorch, CNNs, Feature Engineering, Model Evaluation"
+      - label: "NLP & GenAI"
+        details: "NLTK, spaCy, Hugging Face Transformers (FLAN-T5)"
+      - label: "Cloud & Tools"
+        details: "AWS, Google Cloud, MySQL, Git, GitHub, VS Code, Jupyter Notebook"
+
+    experience:
+      - company: "Technocolabs Software"
+        position: "Data Analyst / Software Engineering Intern"
+        location: "Remote"
+        start_date: "2025-12"
+        end_date: "Present"
+        highlights:
+          - "**Analyzed large-scale THR inpatient discharge data** to assess cost efficiency, length of stay (LOS), and hospital performance."
+          - "**Developed Python-based data pipelines** for cleaning, transforming, and processing large healthcare datasets."
+          - "**Engineered efficiency metrics** and built **regression/ML models** to identify cost drivers and predict outcomes."
+          - "**Created Power BI dashboards** for LOS and cost trends, supporting **data-driven decision-making** and benchmarking."
+          - "Evaluated model performance using metrics such as **R2, MAE, and RMSE**."
+
+    education:
+      - institution: "Symbiosis Institute of Technology"
+        location: "Nagpur, India"
+        area: "Computer Science & Engineering"
+        degree: "B.Tech"
+        start_date: "2022-08"
+        end_date: "2026-06"
+        highlights:
+          - "CGPA: **7.50/10**"
+
+    personal_projects:
+      - name: "AI-Powered Insurance Claim Automation System"
+        date: "2025-11"
+        highlights:
+          - "**Developed a Generative AI system** using **NLP and FLAN-T5** for document classification and claim outcome prediction."
+          - "Implemented **explainable decisions** using Machine Learning workflows to automate claim processing."
+          - "Project Link: [GitHub/System](https://github.com/shrishti1108/AI_Powered_Insurance_Claim_Automation_System)" # Replace with actual link from resume
+
+      - name: "CNN-Based Facial Emotion Detection"
+        date: "2025-10"
+        highlights:
+          - "**Built a CNN-MobileNet system** for **real-time multi-class** facial emotion recognition."
+          - "Optimized model for **efficient inference** and real-time performance."
+          - "Project Link: [GitHub/Emotion-Detection](https://github.com/shrishti1108/Machine-Learning-Project)" # Replace with actual link from resume
+
+      - name: "Analysis of Flood Events on DBT Distribution in India"
+        date: "2025-09"
+        highlights:
+          - "**Analyzed district-level DBT transaction data** to quantify the impact of flood events on welfare fund distribution."
+          - "Designed **data analysis pipelines** and utilized **statistical modeling** to derive distribution insights."
+          - "Project Link: [GitHub/DBT-Analysis](https://github.com/shrishti1108/Analyzing-the-Impact-of-Flood-Events-on-Direct-Benefit-Transfer-DBT-Distribution-in-India)" # Replace with actual link from resume
+
+    publication:
+      - title: "Blockchain-based Personal Identity Security using cryptographic and decentralized models"
+        authors: ["Shrishti Prasad"]
+        journal: "IEEE"
+      - title: "Current Advances in AI Multimodal Diagnostics for Parkinson's Disease: A Comprehensive Review"
+        authors: ["Shrishti Prasad"]
+        date: "2025-04-01"
+        journal: "IEEE"
+      - title: "ML-driven Predictive Modeling of Physical Properties in Binary Chemical Solutions"
+        authors: ["Shrishti Prasad"]
+        date: "2023-11-01"
+        journal: "IEEE"
+
+    certifications:
+      - name: "AWS Cloud Foundations"
+        issuer: "Amazon Web Services"
+      - name: "Deep Learning & Generative AI"
+        issuer: "IIT Dharwad"
+      - name: "Google Cloud Fundamentals"
+        issuer: "Google"
+      - name: "Salesforce Agentforce Specialist"
+        issuer: "Salesforce"
+      - name: "Big Data Fundamentals"
+        issuer: "Infosys"
+      - name: "Oracle Database Foundations"
+        issuer: "Oracle"
