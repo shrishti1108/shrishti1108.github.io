@@ -38,7 +38,7 @@ cv:
         position: "Data Analyst / Software Engineering Intern"
         location: "Remote"
         start_date: "2025-12"
-        end_date: "Present"
+        end_date: "present"
         highlights:
           - "**Analyzed large-scale THR inpatient discharge data** to assess cost efficiency, length of stay (LOS), and hospital performance."
           - "**Developed Python-based data pipelines** for cleaning, transforming, and processing large healthcare datasets."
