@@ -79,9 +79,9 @@ cv:
           - "Project Link: [GitHub/DBT-Analysis](https://github.com/shrishti1108/Analyzing-the-Impact-of-Flood-Events-on-Direct-Benefit-Transfer-DBT-Distribution-in-India)" # Replace with actual link from resume
 
     publication:
-      - title: "Blockchain-based Personal Identity Security using cryptographic and decentralized models"
-        authors: ["Shrishti Prasad"]
-        journal: "IEEE"
+      # - title: "Blockchain-based Personal Identity Security using cryptographic and decentralized models"
+      #   authors: ["Shrishti Prasad"]
+      #   journal: "IEEE"
       - title: "Current Advances in AI Multimodal Diagnostics for Parkinson's Disease: A Comprehensive Review"
         authors: ["Shrishti Prasad"]
         date: "2025-04-01"
@@ -93,14 +93,20 @@ cv:
 
     certifications:
       - name: "AWS Cloud Foundations"
+        date: "2025-01"
         issuer: "Amazon Web Services"
       - name: "Deep Learning & Generative AI"
+        date: "2025-01"
         issuer: "IIT Dharwad"
       - name: "Google Cloud Fundamentals"
+        date: "2025-01"
         issuer: "Google"
       - name: "Salesforce Agentforce Specialist"
+        date: "2025-01"
         issuer: "Salesforce"
       - name: "Big Data Fundamentals"
+        date: "2025-01"
         issuer: "Infosys"
       - name: "Oracle Database Foundations"
+        date: "2025-01"
         issuer: "Oracle"
