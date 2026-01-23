@@ -1,0 +1,260 @@
+# ====================================================================
+# Terminal Portfolio - Resume Configuration
+# ====================================================================
+# 🎨 CUSTOM FIELDS SUPPORT:
+#   This template supports custom fields! Add any extra fields you need
+#   to personalize your resume beyond the standard schema.
+#
+# 📋 How it works:
+#   - Custom fields appear in your web portfolio (terminal interface)
+#   - Custom fields are auto-stripped when generating PDF (RenderCV compatibility)
+#   - No errors, no manual management - it just works!
+#
+# 💡 Examples throughout this file show custom fields you can add:
+#   - social_networks: profile_url, verified
+#   - technologies: proficiency_level, years_experience
+#   - experience: github_team, tech_stack, team_size
+#   - education: gpa, honors, thesis_title
+#   - projects: github_repo, live_url, tech_stack, role
+# ====================================================================
+
+cv:
+  name: "Jane Developer"
+  location: "San Francisco, CA"
+  email: "jane@example.com"
+  phone: "tel:+1-555-0123"
+  # 🌐 Optional: Will auto-fill with GitHub Pages URL if left empty
+  website: "https://janedeveloper.dev"
+  resume_url: "https://janedeveloper.dev/resume.pdf"
+  social_networks:
+    - network: "LinkedIn"
+      username: "jane-developer"
+      # 🆕 Custom fields supported! Add any extra fields you need:
+      profile_url: "https://linkedin.com/in/jane-developer"
+      verified: true
+    - network: "GitHub"
+      username: "janedev"
+    # Add more networks as needed:
+    - network: "Twitter"
+      username: "janedev"
+
+  sections:
+    intro:
+      - "Full-stack software engineer with 5+ years of experience building scalable web applications using React, Node.js, and cloud platforms."
+      - "Passionate about clean code, user experience, and solving complex technical challenges through innovative solutions."
+      - "Proven track record of delivering high-impact projects that drive business value and improve developer productivity."
+
+    technologies:
+      - label: "Languages"
+        details: "JavaScript, TypeScript, Python, Go, SQL"
+        # 🆕 Custom fields supported! Examples:
+        proficiency_level: "Expert"
+        years_experience: 5
+      - label: "Frontend"
+        details: "React, Vue.js, Next.js, Tailwind CSS, Redux, React Query"
+      - label: "Backend"
+        details: "Node.js, Express, FastAPI, Django, REST APIs, GraphQL"
+      - label: "Databases"
+        details: "PostgreSQL, MongoDB, Redis, Elasticsearch"
+      - label: "Cloud & DevOps"
+        details: "AWS, Docker, Kubernetes, CI/CD, Terraform, GitHub Actions"
+      - label: "Tools & Practices"
+        details: "Git, Agile/Scrum, TDD, Code Review, Technical Documentation"
+
+    experience:
+      - company: "Tech Startup Inc"
+        position: "Senior Software Engineer"
+        location: "San Francisco, CA (Remote)"  # ✨ Location now optional! Omit for fully remote roles
+        start_date: "2021-06"
+        highlights:  # ✨ Highlights now optional with empty default!
+          - "**Led microservices migration** reducing system latency by 60% and improving scalability for 1M+ users"
+          - "**Architected real-time data pipeline** processing 100K+ events per second using Kafka and Redis"
+          - "**Mentored 4 junior engineers** through pair programming and code reviews, improving team velocity by 40%"
+          - "**Implemented comprehensive testing** achieving 90%+ code coverage and reducing production bugs by 70%"
+        # 🆕 Custom fields supported! Examples:
+        github_team: "tech-startup/platform"
+        tech_stack: ["React", "Node.js", "PostgreSQL", "AWS"]
+        team_size: 8
+        employment_type: "Full-time"
+
+      - company: "Tech Startup Inc"
+        position: "Software Engineer"
+        location: "San Francisco, CA"
+        start_date: "2019-08"
+        end_date: "2021-05"
+        highlights:
+          - "Built responsive web applications serving 500K+ monthly users using React and Node.js"
+          - "Optimized database queries reducing API response times from 2s to 200ms"
+          - "Collaborated with design team to implement component library used across 10+ products"
+
+      - company: "Previous Company LLC"
+        position: "Junior Developer"
+        location: "Remote"
+        start_date: "2018-06"
+        end_date: "2019-07"
+        highlights:
+          - "Developed RESTful APIs and integrated third-party services for e-commerce platform"
+          - "Contributed to codebase modernization by migrating legacy jQuery to React components"
+
+    education:
+      - institution: "University of California, Berkeley"
+        location: "Berkeley, CA"
+        area: "Computer Science"
+        degree: "B.S."
+        start_date: "2014-09"
+        end_date: "2018-05"
+        highlights:  # ✨ Highlights are optional!
+          - "GPA: **3.8**/4.0"
+          - "Relevant Coursework: Data Structures, Algorithms, Distributed Systems, Machine Learning"
+          - "Activities: ACM Chapter President, Hackathon Winner (2017)"
+        # 🆕 Custom fields supported! Examples:
+        gpa: 3.8
+        honors: "Magna Cum Laude"
+        thesis_title: "Distributed Systems at Scale"
+
+    professional_projects:
+      - name: "E-Commerce Platform Redesign"
+        date: "2023-06 – 2024-01"
+        show_on_resume: true
+        highlights:
+          - "Led complete frontend rebuild using Next.js and TypeScript, improving lighthouse scores to 95+"
+          - "Implemented server-side rendering and code splitting, reducing initial load time by 50%"
+          - "Designed and built headless CMS integration allowing non-technical team members to manage content"
+          - "Increased conversion rate by 25% through improved UX and performance optimizations"
+
+      - name: "Real-time Analytics Dashboard"
+        date: "2022-09 – 2023-05"
+        show_on_resume: true
+        highlights:
+          - "Built WebSocket-based real-time data visualization dashboard processing 50K+ events/minute"
+          - "Designed scalable backend architecture using Node.js, Redis, and PostgreSQL"
+          - "Implemented responsive charts and graphs using D3.js and Recharts"
+          - "Reduced time-to-insight for business stakeholders from hours to seconds"
+
+      - name: "Microservices Migration"
+        date: "2021-06 – 2022-08"
+        show_on_resume: true
+        highlights:
+          - "Architected migration strategy from monolith to microservices for core payment system"
+          - "Implemented event-driven communication using Kafka and RabbitMQ"
+          - "Designed Docker containers and Kubernetes deployments for 12 microservices"
+          - "Achieved zero-downtime migration serving 1M+ daily transactions"
+
+      - name: "API Gateway & Authentication Service"
+        date: "2020-11 – 2021-05"
+        show_on_resume: false
+        highlights:
+          - "Built centralized API gateway handling 10M+ requests per day"
+          - "Implemented OAuth2 and JWT-based authentication system"
+          - "Designed rate limiting and caching strategies reducing backend load by 40%"
+
+    personal_projects:
+      - name: "DevTools CLI"
+        date: "2024-01"
+        show_on_resume: true
+        highlights:
+          - "Created command-line tool for developer workflow automation using Node.js and TypeScript"
+          - "Published to npm with 1K+ downloads, featured in weekly JavaScript newsletter"
+          - "Implemented plugin system allowing community contributions"
+          - "Open source: [github.com/janedev/devtools-cli](https://github.com/janedev/devtools-cli)"
+
+      - name: "Personal Portfolio Website"
+        date: "2023-12"
+        show_on_resume: true
+        highlights:
+          - "Built interactive terminal-style portfolio using React and TypeScript"
+          - "Implemented PWA features for offline functionality and app installation"
+          - "Designed custom ASCII art generator for terminal aesthetics"
+          - "Live at: [janedeveloper.dev](https://janedeveloper.dev)"
+
+      - name: "Markdown Blog Engine"
+        date: "2023-06"
+        show_on_resume: false
+        highlights:
+          - "Created static site generator for markdown-based blogs using Next.js"
+          - "Implemented syntax highlighting, code copy, and dark mode"
+          - "Built RSS feed generation and SEO optimization features"
+
+      - name: "Task Management App"
+        date: "2022-08"
+        show_on_resume: false
+        highlights:
+          - "Developed full-stack task management app with React and Firebase"
+          - "Implemented real-time collaboration using Firestore"
+          - "Designed drag-and-drop kanban board interface"
+
+    # ====================================================================
+    # 🆕 DYNAMIC SECTIONS SUPPORT (Phase 3)
+    # ====================================================================
+    # You can add ANY custom section names! Examples: certifications, awards,
+    # volunteer_work, speaking, courses, etc.
+    #
+    # These sections will:
+    #   ✅ Appear in your terminal portfolio automatically
+    #   ✅ Be available as commands (e.g., "certifications", "awards")
+    #   ✅ Work with RenderCV PDF generation
+    #   ✅ Support all entry types (experience-like, project-like, text, etc.)
+    #
+    # Examples below show different entry types you can use:
+
+    # Example: Project-like entries (NormalEntry) - use "name" field
+    certifications:
+      - name: "AWS Certified Solutions Architect - Professional"
+        date: "2024-03"
+        highlights:
+          - "Demonstrated expertise in designing distributed systems on AWS"
+          - "Achieved score of 920/1000"
+          - "Valid until 2027-03"
+        # Custom fields are fully supported!
+        issuer: "Amazon Web Services"
+        certification_id: "AWS-PSA-12345"
+        verification_url: "https://aws.amazon.com/verify/AWS-PSA-12345"
+    
+      - name: "Certified Kubernetes Application Developer (CKAD)"
+        date: "2023-11"
+        highlights:
+          - "Hands-on certification for cloud-native applications"
+          - "Passed performance-based exam with 88% score"
+        issuer: "Cloud Native Computing Foundation"
+        expiry_date: "2026-11"
+
+    # Example: Project-like entries for awards
+    awards:
+      - name: "Engineering Excellence Award"
+        date: "2024-01"
+        highlights:
+          - "Recognized for outstanding technical contribution"
+          - "Led platform rewrite improving performance by 60%"
+        awarded_by: "Tech Corp Engineering Team"
+        award_category: "Technical Innovation"
+    
+      - name: "Hackathon Winner - Best Developer Tool"
+        date: "2023-08"
+        highlights:
+          - "Built AI-powered code review assistant in 48 hours"
+          - "Reduced review time by 30% in pilot program"
+        event: "Internal Tech Corp Hackathon"
+        team_size: 4
+
+    # Example: Simple text entries (TextEntry)
+    languages:
+      - "English (Native)"
+      - "Spanish (Professional working proficiency)"
+      - "French (Limited working proficiency)"
+
+    # Example: OneLineEntry format (like technologies section)
+    interests:
+      - label: "Technical"
+        details: "Open source, Cloud architecture, DevOps, AI/ML"
+      - label: "Personal"
+        details: "Hiking, Photography, Reading sci-fi novels"
+
+    # Optional: Add publications section if you have research papers or blog posts
+    publication:
+      - title: "Optimizing React Performance at Scale"
+        authors:
+          - "Jane Developer"
+          - "John Doe"
+        date: "2023-11-15"
+        journal: "Medium Engineering Blog"
+        doi: "example.com/article"
