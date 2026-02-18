@@ -155,8 +155,8 @@ design:
     font_size: 1.3em
     bold: true
     small_caps: true
-    vertical_space_above: 0.45cm
-    vertical_space_below: 0.25cm
+    vertical_space_above: 0.40cm
+    vertical_space_below: 0.22cm
   entries:
     date_and_location_width: 4cm
     left_and_right_margin: 0.1cm
