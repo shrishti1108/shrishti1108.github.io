@@ -1,29 +1,29 @@
+```
 # ====================================================================
 # Terminal Portfolio - Resume Configuration for Shrishti Prasad
 # ====================================================================
 
 cv:
   name: "Shrishti Prasad"
-  location: "Nagpur, India"
+  location: "Bangalore, KA"
   email: "shrishtiprasad435@gmail.com"
   phone: "tel:+91-9370301643"
+  # website: https://shrishti1108.github.io
   social_networks:
     - network: "LinkedIn"
-      username: "shrishti-prasad-560723248"
-      profile_url: "https://www.linkedin.com/in/shrishti-prasad-560723248"
+      username: "shrishti1108"
+      profile_url: "https://www.linkedin.com/in/shrishti1108"
     - network: "GitHub"
       username: "shrishti1108"
       profile_url: "https://github.com/shrishti1108"
 
   sections:
     intro:
-      - "Computer Science Engineering student and Data/ML Intern with hands-on experience in **healthcare analytics**, **predictive modeling**, and **operational efficiency**."
-      - "Proficient in building **backend data processing pipelines** and **ML-integrated applications** using **Python**, **SQL**, and frameworks like **TensorFlow** and **PyTorch**."
-      - "Published researcher with **three IEEE papers** focusing on **AI diagnostics**, **predictive modeling**, and **blockchain security**."
+      - "Computer Science Engineering student with hands-on experience across **software development**, **data engineering**, and **machine learning**, building systems end-to-end from pipeline to product. Proficient in **Python**, **SQL**, and frameworks like **TensorFlow** and **PyTorch**; experienced in backend data pipelines, ML-integrated applications, and analytical dashboards. Published researcher with **three IEEE papers** spanning **AI diagnostics**, **predictive modeling**, and **blockchain security**."
 
     technologies:
       - label: "Programming"
-        details: "Python, SQL, C, C++"
+        details: "Python, SQL, C++, C"
       - label: "Data & Visualization"
         details: "Pandas, NumPy, Power BI (DAX), MS Excel, Matplotlib, Seaborn"
       - label: "Machine Learning & AI"
@@ -35,8 +35,8 @@ cv:
 
     experience:
       - company: "Technocolabs Software"
-        position: "Data Analyst / Software Engineering Intern"
-        location: "Remote"
+        position: "SDE Intern (Data Analytics Platform)"
+        location: "Bangalore, KA"
         start_date: "2025-12"
         end_date: "present"
         highlights:
@@ -48,13 +48,13 @@ cv:
 
     education:
       - institution: "Symbiosis Institute of Technology"
-        location: "Nagpur, India"
+        location: "Nagpur, MH"
         area: "Computer Science & Engineering"
         degree: "B.Tech"
         start_date: "2022-08"
         end_date: "2026-06"
         highlights:
-          - "CGPA: **7.50/10**"
+          - "CGPA: **7.5/10**"
 
     personal_projects:
       - name: "AI-Powered Insurance Claim Automation System"
@@ -62,32 +62,32 @@ cv:
         highlights:
           - "**Developed a Generative AI system** using **NLP and FLAN-T5** for document classification and claim outcome prediction."
           - "Implemented **explainable decisions** using Machine Learning workflows to automate claim processing."
-          - "Project Link: [GitHub/System](https://github.com/shrishti1108/AI_Powered_Insurance_Claim_Automation_System)" # Replace with actual link from resume
+          - "Project Link: [GitHub/System](https://github.com/shrishti1108/AI_Powered_Insurance_Claim_Automation_System)"
 
       - name: "CNN-Based Facial Emotion Detection"
         date: "2025-10"
         highlights:
           - "**Built a CNN-MobileNet system** for **real-time multi-class** facial emotion recognition."
           - "Optimized model for **efficient inference** and real-time performance."
-          - "Project Link: [GitHub/Emotion-Detection](https://github.com/shrishti1108/Machine-Learning-Project)" # Replace with actual link from resume
+          - "Project Link: [GitHub/Emotion-Detection](https://github.com/shrishti1108/Machine-Learning-Project)"
 
       - name: "Analysis of Flood Events on DBT Distribution in India"
         date: "2025-09"
         highlights:
           - "**Analyzed district-level DBT transaction data** to quantify the impact of flood events on welfare fund distribution."
           - "Designed **data analysis pipelines** and utilized **statistical modeling** to derive distribution insights."
-          - "Project Link: [GitHub/DBT-Analysis](https://github.com/shrishti1108/Analyzing-the-Impact-of-Flood-Events-on-Direct-Benefit-Transfer-DBT-Distribution-in-India)" # Replace with actual link from resume
+          - "Project Link: [GitHub/DBT-Analysis](https://github.com/shrishti1108/Analyzing-the-Impact-of-Flood-Events-on-Direct-Benefit-Transfer-DBT-Distribution-in-India)"
 
     publication:
       # - title: "Blockchain-based Personal Identity Security using cryptographic and decentralized models"
       #   authors: ["Shrishti Prasad"]
       #   journal: "IEEE"
       - title: "Current Advances in AI Multimodal Diagnostics for Parkinson's Disease: A Comprehensive Review"
-        authors: ["Shrishti Prasad"]
+        authors: ["Shrishti Prasad", "Ayush Shrikhande", "Krunal Dhapodkar"]
         date: "2025-04-01"
         journal: "IEEE"
       - title: "ML-driven Predictive Modeling of Physical Properties in Binary Chemical Solutions"
-        authors: ["Shrishti Prasad"]
+        authors: ["Shrishti Prasad", "Asita Ganatra"]
         date: "2023-11-01"
         journal: "IEEE"
 
@@ -110,3 +110,153 @@ cv:
       - name: "Oracle Database Foundations"
         date: "2025-01"
         issuer: "Oracle"
+      - name: "Data Mining"
+        date: "2025-01"
+        issuer: "Simplilearn"
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.18cm
+    bottom_margin: 1.18cm
+    left_margin: 1.18cm
+    right_margin: 1.18cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: "#011629"
+    name: "#124d86"
+    connections: "#124d86"
+    section_titles: "#124d86"
+    links: "#124d86"
+    last_updated_date_and_page_numbering: "grey"
+  text:
+    font_family: Lato
+    font_size: 9.25pt
+    alignment: justified
+    date_and_location_column_alignment: right
+  header:
+    name_font_family: Lato
+    name_font_size: 18pt
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.4cm
+    vertical_space_between_connections_and_first_section: 0.4cm
+    horizontal_space_between_connections: 0.4cm
+    connections_font_family: Lato
+    separator_between_connections: '|'
+    use_icons_for_connections: true
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: Lato
+    font_size: 1.3em
+    bold: true
+    small_caps: true
+    vertical_space_above: 0.45cm
+    vertical_space_below: 0.25cm
+  entries:
+    date_and_location_width: 4cm
+    left_and_right_margin: 0.1cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    nested_bullet: ◦
+    top_margin: 0.18cm
+    left_margin: 0.3cm
+    vertical_space_between_highlights: 0.17cm
+    horizontal_space_between_bullet_and_highlight: 0.4em
+    summary_left_margin: 1cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        DEGREE in AREA
+      degree_column_template: ''
+      degree_column_width: 3cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        POSITION
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS | **(JOURNAL)**
+      date_and_location_column_template: "DATE"
+
+locale:
+  language: "en"
+  phone_number_format: "international"
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "Present"
+  to: "-"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "Jun"
+    - "Jul"
+    - "Aug"
+    - "Sep"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"
+
+```
